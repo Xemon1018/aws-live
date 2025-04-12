@@ -11,7 +11,7 @@ region = "us-east-1"
 
 db_conn = connections.Connection(
     host="employee.ccfaokjisf00.us-east-1.rds.amazonaws.com",
-    port="3306",
+    port=3306,
     user="aws_user",
     password="Bait3273",
     db="employee"
